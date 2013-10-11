@@ -10,7 +10,7 @@ describe "Library Object" do
     ]
 
     File.open "books.yml", "w" do |f|
-      f.write YAML::dump lib_obj
+      f.write YAML::dump lib_arr
     end 
   end
 
